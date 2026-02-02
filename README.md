@@ -2,6 +2,12 @@
 
 A modern Vue.js application for calculating gold prices in the Philippines with different karat values (24K, 22K, 21K, 18K, 14K, 10K, 8K).
 
+## 🌐 Live link (visible to everyone)
+
+**https://basiertoronnel.github.io/Calculator-Gold/**
+
+Works on any device and in incognito. **Repository must be Public** and **Pages source** must be **GitHub Actions** (see [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)).
+
 ## Features
 
 - 🔐 User authentication (Registration & Login)

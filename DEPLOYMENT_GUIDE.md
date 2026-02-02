@@ -7,16 +7,36 @@
 
 ---
 
+## ✅ Make the link visible to EVERYONE (any device, incognito)
+
+For the link to work for **anyone** with the link—on any device or in incognito—do these two things on GitHub:
+
+### 1. Make the repository **Public**
+
+If the repo is **private**, GitHub **unpublishes** the Pages site, so the link will not work for others.
+
+1. Open **https://github.com/basiertoronnel/Calculator-Gold**
+2. Go to **Settings** → scroll to **Danger Zone**
+3. Click **Change visibility** → choose **Public** → confirm
+
+### 2. Set GitHub Pages source to **GitHub Actions**
+
+1. In the same repo: **Settings** → **Pages** (left sidebar)
+2. Under **Build and deployment** → **Source**, select **GitHub Actions**
+3. Save (no need to pick a branch)
+
+**Result:**  
+**https://basiertoronnel.github.io/Calculator-Gold/** will work for anyone, on any device, including incognito. No login required to open the link.
+
+---
+
 ## Method 1: Automatic Deployment with GitHub Actions (Recommended)
 
 This method automatically deploys your app whenever you push to GitHub.
 
 ### Step 1: Prepare Your Project
 
-1. **Update vite.config.js** with your repository name:
-```javascript
-base: '/Calculator-Gold/'  // Must match your repo name
-```
+1. **vite.config.js** uses `base: './'` so the app loads correctly on GitHub Pages (no change needed).
 
 ### Step 2: Push to GitHub
 
