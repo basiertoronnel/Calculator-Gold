@@ -28,6 +28,17 @@ If the repo is **private**, GitHub **unpublishes** the Pages site, so the link w
 **Result:**  
 **https://basiertoronnel.github.io/Calculator-Gold/** will work for anyone, on any device, including incognito. No login required to open the link.
 
+### Link still not visible to others?
+
+1. **First-time deploy approval**  
+   Go to **Settings** → **Environments** → **github-pages**. If it says "Required reviewers", either add yourself and approve the deployment, or remove the requirement so deployments run automatically.
+
+2. **Wait for the workflow**  
+   After each push, go to **Actions** and wait until the "Deploy to GitHub Pages" workflow is green. Only then is the site updated.
+
+3. **Share the exact link**  
+   Use: **https://basiertoronnel.github.io/Calculator-Gold/** (with the trailing slash).
+
 ---
 
 ## Method 1: Automatic Deployment with GitHub Actions (Recommended)
