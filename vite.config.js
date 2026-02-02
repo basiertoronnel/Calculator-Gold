@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// GitHub Pages: repo name in URL is case-sensitive (Calculator-Gold)
+// GitHub Pages project site URL: https://username.github.io/REPO-NAME/
+// Use absolute base path - must match repo name exactly (case-sensitive)
 const base = '/Calculator-Gold/'
 
 // https://vitejs.dev/config/
