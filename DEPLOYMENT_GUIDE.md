@@ -15,7 +15,7 @@ This method automatically deploys your app whenever you push to GitHub.
 
 1. **Update vite.config.js** with your repository name:
 ```javascript
-base: '/gold-calculator-ph/'  // Change to your repo name
+base: '/Calculator-Gold/'  // Must match your repo name
 ```
 
 ### Step 2: Push to GitHub
@@ -35,7 +35,7 @@ git commit -m "Initial commit: Gold Calculator Vue app"
 
 # Create repository on GitHub (via website)
 # Then connect it:
-git remote add origin https://github.com/YOUR-USERNAME/gold-calculator-ph.git
+git remote add origin https://github.com/basiertoronnel/Calculator-Gold.git
 
 # Push to GitHub
 git branch -M main
@@ -54,7 +54,7 @@ git push -u origin main
 
 After 2-3 minutes, visit:
 ```
-https://YOUR-USERNAME.github.io/gold-calculator-ph/
+https://basiertoronnel.github.io/Calculator-Gold/
 ```
 
 **That's it!** Every time you push changes, it will automatically redeploy.
